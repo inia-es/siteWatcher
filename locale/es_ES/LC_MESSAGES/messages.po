@@ -1,0 +1,31 @@
+# Traducción al español para site-watcher.
+# Copyright (C) 2014 Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria
+# This file is distributed under the same license as the site-watcher package.
+# Antonio Jesús Sánchez Padial antonio.sanchez@inia.es, 2014
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-05 14:17+0100\n"
+"PO-Revision-Date: 2014-11-05 15:13+0100\n"
+"Last-Translator: Antonio Jesús Sánchez Padial antonio.sanchez@inia.es\n"
+"Language-Team: ES <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: watcher.php:94
+#, php-format
+msgid "Site %s is down"
+msgstr "El sitio %s esta caído"
+
+#: watcher.php:95
+#, php-format
+msgid ""
+"Site %s seems to be down.\n"
+"SITEWATCHER tried to recover it using %s; but running the rescuer didn't solve the issue."
+msgstr ""
+"Parece que el sitio %s está caído.\n"
+"SITEWATCHER ha intentado recuperarlo ejecutando %s; pero el sitio aún no responde."
