@@ -88,9 +88,6 @@ function factoryCheckHeader($site, $error, $function)
 $site = $argv[1];
 $rescueSite = $argv[2];
 $notifyTo = $argv[3];
-$messageTitle = 'Sitio de revistas caído'; 
-$messageContent = 'El sitio de revistas INIA parece estar caído. 
-            He intentado limpiar la caché pero la web no se recupera.';
 $title = gettext("Site %s is down");
 $content = gettext("Site %s seems to be down.\nSITEWATCHER tried to recover it using %s; but running the rescuer didn't solve the issue.");
 $messageTitle = sprintf($title, $site);
