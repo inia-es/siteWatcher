@@ -81,7 +81,7 @@ function checkHeader($site, $headerValue, $function)
 function factoryCheckHeader($site, $error, $function)
 {
     return function() use ($site, $error, $function) {
-        call_user_func('checkHeader', $site, $error, $function);
+        checkHeader($site, $error, $function);
     };
 }
 
