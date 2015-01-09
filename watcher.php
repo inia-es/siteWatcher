@@ -99,7 +99,7 @@ checkHeader(
     factoryCheckHeader(
         $rescueSite,
         '500',
-        getSiteDownNotifier($notiFyTo, $messageTitle, $messageContent)
+        getNotifier($notifyTo, $messageTitle, $messageContent)
     )
 );
 ?>
